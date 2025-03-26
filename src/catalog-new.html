@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+
+{% block page %}
+<div class="slogan">
+    <div class="container">
+        <p>“Хороший ландшафтный дизайнер не следует формулам. Его творчество - всегда
+            эксперимент.”</p>
+        <p class="text-right"><em>(c) Директор питомника</em></p>
+    </div>
+</div>
+<div id="main" class="section container">
+    <div class="path">
+        <a href="/">Главная</a> &gt; О нас
+    </div>
+    <article class="article desc text-center">
+        <h1>Хвойные растения</h1>
+        <p>Питомник существует с 1986 года. На сегодняшний день является одним из ведущих производителей декоративных
+            деревьев и кустарников на юге России. Мы предлагаем широчайший ассортимент декоративных культур. В
+            производстве используются только лучшие, хорошо зарекомендовавшие себя сорта и множество интересных новинок.</p>
+    </article>
+    <div class="grid-products">
+        <a href="#" class="product-cat">
+            <img src="img/img-trees.png" alt="" width="316" height="380" loading="lazy">
+            <div class="product-cat-content">
+                <div class="icon">
+                    <img src="img/trees.svg" width="94" height="116" alt="">
+                </div>
+                <div class="product-cat-name">Хвойные
+                    растения</div>
+            </div>
+        </a>
+        <a href="#" class="product-cat">
+            <img src="img/img-landscape.png" alt="" width="316" height="380" loading="lazy">
+            <div class="product-cat-content">
+                <div class="icon">
+                    <img src="img/landscape.svg" width="113" height="109" alt="">
+                </div>
+                <div class="product-cat-name">
+                    Лиственные
+                    растения
+                </div>
+            </div>
+        </a>
+        <a href="#" class="product-cat">
+            <img src="img/img-bush.png" alt="" width="315" height="379" loading="lazy">
+            <div class="product-cat-content">
+                <div class="icon">
+                    <img src="img/bush.svg" width="87" height="75" alt="">
+                </div>
+                <div class="product-cat-name">
+                    Прочее
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+{% endblock %}
