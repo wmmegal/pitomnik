@@ -204,6 +204,11 @@
             font-weight: bold;
             margin-top: 40px;
             margin-bottom: 35px;
+
+            @include mixins.media-breakpoint-down('xl') {
+                border-radius: 20px;
+                margin: 40px auto 35px auto;
+            }
         }
 
         .space {
@@ -307,7 +312,7 @@
                     @include mixins.center-x;
                     top: 30px;
                     border-radius: 33px;
-                    filter: drop-shadow(0 0 7.5px rgba(0,0,0,0.1));
+                    filter: drop-shadow(0 0 7.5px rgba(0, 0, 0, 0.1));
                     background-color: #ffffff;
                     padding: 20px;
                     width: 436px;
